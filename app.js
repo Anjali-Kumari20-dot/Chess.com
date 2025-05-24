@@ -54,7 +54,7 @@ io.on("connection", function (uniquesocket) {
       if(result) {
         currentPlayer = chess.turn();
         io.emit("move", move);
-        io.emit("boardState", chess.fen());
+        io.emit("boardState", chess.fen());//ensure both players recieve updated board state
       }else {
         console.log("Invalid Move: ", move);
         uniquesocket.emit("invalidMove", move);
