@@ -39,7 +39,8 @@ A dynamic, two-player chess game built using **Socket.IO**, **Node.js**, **Chess
 ## 🧪 Run Locally
 
 # Clone the repo
-git clone https://github.com/your-username/chess-game.git
+git clone [https://github.com/Anjali-Kumari20-dot/Chess.com.git]
+
 cd chess-game
 
 # Install dependencies
